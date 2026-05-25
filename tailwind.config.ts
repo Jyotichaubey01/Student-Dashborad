@@ -37,7 +37,7 @@ const config: Config = {
         mono: ["JetBrains Mono", "monospace"],
       },
       boxShadow: {
-        "glow-cyan": "0 0 20px rgba(0,212,255,0.15), 0 0 40px rgba(0,212,255,0.05)",
+        "glow-cyan": "0 0 20px rgba(155, 118, 88, 0.15), 0 0 40px rgba(0,212,255,0.05)",
         "glow-purple": "0 0 20px rgba(124,58,237,0.2)",
         card: "0 4px 24px rgba(0,0,0,0.4)",
         "card-hover": "0 8px 40px rgba(0,0,0,0.6)",
