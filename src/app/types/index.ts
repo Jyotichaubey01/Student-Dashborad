@@ -1,12 +1,12 @@
 
 export interface Course {
-  id: string;
+  id: number;
   title: string;
+  description: string;
   progress: number;
-  icon_name: string;
-  created_at: string;
+  status: string;
+  color: string;
 }
-
 export interface NavItem {
   id: string;
   label: string;

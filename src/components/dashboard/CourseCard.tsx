@@ -46,7 +46,7 @@ export default function CourseCard({ course, index }: CourseCardProps) {
             style={{ background: `${theme.accent}18`, border: `1px solid ${theme.accent}33` }}
           >
             <DynamicIcon
-              name={course.icon_name}
+             name={course.icon_name || "BookOpen"}
               size={18}
               className="transition-transform group-hover:scale-110 duration-300"
               style={{ color: theme.accent }}
